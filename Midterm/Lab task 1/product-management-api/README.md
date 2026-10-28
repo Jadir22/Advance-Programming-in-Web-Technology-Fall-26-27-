@@ -146,4 +146,8 @@ product-management-api/
 - Database operations are handled through the service classes.
 - PostgreSQL is used for persistent data storage.
 - The real `.env` file is not included in the repository.
+<<<<<<< HEAD
 - `node_modules` and `dist` are excluded from Git.
+=======
+- `node_modules` and `dist` are excluded from Git.
+>>>>>>> 9db538f03e5cf8cc83364a3081efb032742e70b1
