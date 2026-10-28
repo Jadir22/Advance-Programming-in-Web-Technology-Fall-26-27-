@@ -6,6 +6,7 @@ import { AppService } from "@/src/app.service";
 import global_config from "@/config/global_config";
 import { ProductModule } from "@/modules/product/product.module";
 import { PostgresDatabaseProviderModule } from "@/providers/database/postgres/provider.module";
+import { EmployeeModule } from '@/modules/employee/employee.module';
 
 @Module({
   imports: [
@@ -25,7 +26,7 @@ import { PostgresDatabaseProviderModule } from "@/providers/database/postgres/pr
       load: [global_config],
     }),
 
-    ProductModule,
+    ProductModule, EmployeeModule,
   ],
   controllers: [AppController],
   providers: [AppService],
